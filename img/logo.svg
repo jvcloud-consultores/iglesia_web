@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="MARTA">
+  <defs>
+    <linearGradient id="martaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b794f6"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+  </defs>
+  <!-- Cruz -->
+  <g fill="url(#martaGrad)">
+    <rect x="45" y="4" width="10" height="40" rx="3"/>
+    <rect x="35" y="14" width="30" height="10" rx="3"/>
+  </g>
+  <!-- M (cruz forma el trazo central) -->
+  <path d="M16 90 L16 42 L50 68 L84 42 L84 90"
+        fill="none" stroke="url(#martaGrad)" stroke-width="15"
+        stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

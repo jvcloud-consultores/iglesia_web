@@ -69,6 +69,16 @@ a:hover { color: var(--violet-700); }
   margin-bottom: 1.1rem;
 }
 
+/* ---------- Barra de anuncio ---------- */
+.topbar { background: var(--violet-100); border-bottom: 1px solid var(--violet-200); }
+.topbar-inner {
+  display: flex; align-items: center; justify-content: center; gap: 1.2rem;
+  padding: 0.55rem 0; flex-wrap: wrap; text-align: center;
+}
+.topbar p { margin: 0; color: var(--violet-800); font-weight: 500; font-size: 0.92rem; }
+.topbar p strong { font-weight: 700; }
+.topbar .btn { padding: 0.45rem 1.2rem; font-size: 0.85rem; }
+
 /* ---------- Header ---------- */
 .site-header {
   position: sticky;
